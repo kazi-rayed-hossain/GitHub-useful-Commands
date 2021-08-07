@@ -25,7 +25,7 @@ This command lets you setup the user email address you'll use in your commits.
 ```sh
 git config --global user.email "your GitHub account mail ID"
 ```
-## How to cache your login credentials in Git:
+## :beginner: How to cache your login credentials in Git:
 
 You can store login credentials in the cache so you don't have to type them in each time. Just use this command:
 
@@ -39,7 +39,7 @@ Everything starts from here. The first step is to initialize a new Git repo loca
 ```sh
 git init
 ```
-## How to add a file to the staging area in Git:
+## :beginner: How to add a file to the staging area in Git:
 
 The command below will add a file to the staging area. Just replace `filename_here` with the name of the file you want to add to the staging area.
 
@@ -60,7 +60,7 @@ With the asterisk in the command below, you can add all files starting with 'fil
 ```sh
 git add fil*
 ```
-## How to check a repository's status in Git:
+## :beginner: How to check a repository's status in Git:
 
 This command will show the status of the current repository including staged, unstaged, and untracked files.
 
@@ -82,7 +82,7 @@ You can add a commit message without opening the editor. This command lets you o
 ```sh
 git commit -m "your commit message here"
 ```
-## How to commit changes (and skip the staging area) in Git:
+## :beginner: How to commit changes (and skip the staging area) in Git:
 
 You can add and commit tracked files with a single command by using the -a and -m options.
 
@@ -96,7 +96,7 @@ This command shows the commit history for the current repository:
 ```sh
 git log
 ```
-## How to see your commit history including changes in Git:
+## :beginner: How to see your commit history including changes in Git:
 
 This command shows the commit's history including all files and their changes:
 
@@ -197,7 +197,7 @@ By default, you have one branch, the main branch. With this command, you can cre
 ```sh
 git branch branch_name
 ```
-## How to switch to a newly created branch in Git:
+## :beginner: How to switch to a newly created branch in Git:
 
 When you want to use a different or a newly created branch you can use this command:
 
@@ -329,7 +329,7 @@ If you want to push a branch to a remote repository you can use the command belo
 git push -u origin branch_name
 
 ```
-## How to remove a remote branch in Git:
+## :beginner: How to remove a remote branch in Git:
 
 If you no longer need a remote branch you can remove it using the command below:
 
