@@ -346,6 +346,27 @@ git rebase branch_name_here
 
 ```
 Git Rebase can get really messy if you don't do it properly. Before using this command I suggest that you re-read the official documentation here----------------------------------------------------------------------------
+## Git TEMPORARY COMMITS:
+
+Temporarily store modified, tracked files in order to change branches
+
+Save modified and staged changes
+```sh
+git stash
+
+```
+list stack-order of stashed file changes
+```sh
+git stash list
+```
+write working from top of stash stack
+```sh
+git stash pop
+```
+discard the changes from top of stash stack
+```sh
+git stash drop
+```
 ## How to run rebase interactively in Git:
 
 You can run git rebase interactively using the -i flag.
