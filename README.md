@@ -345,7 +345,7 @@ You can transfer completed work from one branch to another using git rebase.
 git rebase branch_name_here
 
 ```
-Git Rebase can get really messy if you don't do it properly. Before using this command I suggest that you re-read the official documentation here----------------------------------------------------------------------------
+Git Rebase can get really messy if you don't do it properly. Before using this command I suggest that you re-read the official documentation [here](https://git-scm.com/book/it/v2/Git-Branching-Rebasing)
 ## Git TEMPORARY COMMITS:
 
 Temporarily store modified, tracked files in order to change branches
