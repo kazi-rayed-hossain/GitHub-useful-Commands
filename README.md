@@ -433,6 +433,19 @@ This command will force a push request. This is usually fine for pull request br
 git push -f
 
 ```
+## :beginner: How to push request in Git:
+
+- for branch
+
+```sh
+git push origin your_branch_name_here
+
+```
+- for master branch
+```sh
+git push
+
+```
 ## Conclusion
 
 Learning basic GIT commands will go a long way for developers as they can easily control the projects’ source code. It might take some time to commit to remembering all of them, but hopefully, our GIT cheat sheet will be helpful for you.
