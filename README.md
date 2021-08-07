@@ -33,6 +33,46 @@ You can store login credentials in the cache so you don't have to type them in e
 ```sh
 git config --global credential.helper cache
 ```
+## :beginner: How to clone a Git:
+
+You clone a repository with `git clone <url>`
+You can do so like this:
+```sh
+git clone https://github.com/kazi-rayed-hossain/GitHub-useful-Commands.git
+
+```
+- Cloning to a specific folder
+
+```sh
+git clone <repo> <directory>
+```
+Clone the repository located at `＜repo＞` into the folder called ~`＜directory＞`! on the local machine.
+- Cloning a specific tag
+
+```sh
+git clone --branch <tag> <repo>
+```
+Clone the repository located at `＜repo＞` and only clone the ref for `＜tag＞`.
+- Shallow clone
+
+```sh
+git clone -depth=1 <repo>
+```
+Clone the repository located at `＜repo＞` and only clone the history of commits specified by the option depth=1. In this example a clone of `＜repo＞` is made and only the most recent commit is included in the new cloned Repo. Shallow cloning is most useful when working with repos that have an extensive commit history. An extensive commit history may cause scaling problems such as disk space usage limits and long wait times when cloning. A Shallow clone can help alleviate these scaling issues.
+- git clone -branch
+
+The branch argument lets you specify a specific branch to clone instead of the branch the remote HEAD is pointing to, usually the main branch. In addition you can pass a tag instead of branch for the same effect.
+
+```sh
+git clone -branch new_feature git://remoterepository.git
+```
+This above example would clone only the new_feature branch from the remote Git repository. This is purely a convince utility to save you time from downloading the HEAD ref of the repository and then having to additionally fetch the ref you need.
+- git clone --template
+
+```sh
+git clone --template=<template_directory> <repo location>
+```
+Clones the repo at `＜repo location＞` and applies the template from `＜template directory＞` to the newly created local branch.
 ## :beginner: How to initialize a Git repo:
 
 Everything starts from here. The first step is to initialize a new Git repo locally in your project root. You can do so with the command below:
