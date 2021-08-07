@@ -351,20 +351,20 @@ Git Rebase can get really messy if you don't do it properly. Before using this c
 
 Temporarily store modified, tracked files in order to change branches
 
-Save modified and staged changes
+- Save modified and staged changes
 ```sh
 git stash
 
 ```
-list stack-order of stashed file changes
+- list stack-order of stashed file changes
 ```sh
 git stash list
 ```
-write working from top of stash stack
+- write working from top of stash stack
 ```sh
 git stash pop
 ```
-discard the changes from top of stash stack
+- discard the changes from top of stash stack
 ```sh
 git stash drop
 ```
