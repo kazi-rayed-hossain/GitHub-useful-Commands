@@ -67,7 +67,7 @@ This command will show the status of the current repository including staged, un
 ```sh
 git status
 ```
-## How to commit changes in the editor in Git:
+## :beginner: How to commit changes in the editor in Git:
 
 This command will open a text editor in the terminal where you can write a full commit message.
 A commit message is made up of a short summary of changes, an empty line, and a full description of the changes after it.
@@ -138,7 +138,7 @@ This command opens a prompt and asks if you want to stage changes or not, and in
 ```sh
 git add -p
 ```
-## How to remove tracked files from the current working tree in Git:
+## :beginner: How to remove tracked files from the current working tree in Git:
 
 This command expects a commit message to explain why the file was deleted.
 
