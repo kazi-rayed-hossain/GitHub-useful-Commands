@@ -34,7 +34,7 @@ You can store login credentials in the cache so you don't have to type them in e
 ```sh
 git config --global credential.helper cache
 ```
-## :beginner: How to clone a Git:
+## :beginner: How to clone  Git:
 
 You clone a repository with `git clone <url>`
 You can do so like this:
