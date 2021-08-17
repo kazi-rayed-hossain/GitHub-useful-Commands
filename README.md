@@ -450,6 +450,5 @@ git push
 ```
 
 ## Conclusion
-
 Learning basic GIT commands will go a long way for developers as they can easily control the projects’ source code. It might take some time to commit to remembering all of them, but hopefully, our GIT cheat sheet will be helpful for you.
 These commands can dramatically improve your productivity in Git. You don't have to remember them all – that's why I have written this cheat sheet.
