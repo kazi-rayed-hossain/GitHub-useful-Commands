@@ -7,7 +7,6 @@ It was commonly used to host open-source projects. As of January 2020, GitHub re
 
 #### `This sheet features the most important and commonly used Git commands for easy reference.`
 
-
 ## :beginner: How to check your Git configuration:
 
 The command below returns a list of information about your git configuration including user name and email:
