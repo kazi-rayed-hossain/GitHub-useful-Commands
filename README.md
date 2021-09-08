@@ -2,8 +2,8 @@
 
 <img src="https://github.com/kazi-rayed-hossain/GitHub-useful-Commands/blob/7009652d1192ded23da6e4226c3a81d9cdd13299/img/git%20useful%20commands.png" width="1000" height="320" >
 
-Git is a distributed version control system that helps developers collaborate on projects of any scale.  Linus Torvalds, the developer of the Linux kernel, created Git in 2005 to help control the Linux kernel's development.
-It was commonly used to host open-source projects. As of January 2020, GitHub reports having over 40 million users and more than 190 million repositories (including at least 28 million public repositories), It is the largest source code hosting in the whole world.
+_Git is a distributed version control system that helps developers collaborate on projects of any scale.  Linus Torvalds, the developer of the Linux kernel, created Git in 2005 to help control the Linux kernel's development.
+It was commonly used to host open-source projects. As of January 2020, GitHub reports having over 40 million users and more than 190 million repositories (including at least 28 million public repositories), It is the largest source code hosting in the whole world._
 
 #### `This sheet features the most important and commonly used Git commands for easy reference.`
 
